@@ -2,7 +2,7 @@
 #SBATCH -N 1
 #SBATCH -c 2
 #SBATCH --gres=gpu:ampere:1
-#SBATCH --mem=32G
+#SBATCH --mem=24G
 #SBATCH -p tpg-gpu-small
 #SBATCH -t 0-08:00:00
 #SBATCH --job-name=CW1_unet
