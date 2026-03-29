@@ -1,0 +1,17 @@
+name: CW2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - tensorflow==2.20.*
+    - tensorflow-text
+    - keras>=3.13
+    - keras-hub>=0.19
+    - numpy
+    - pandas
+    - scikit-learn
+    - matplotlib
+    - pytest
