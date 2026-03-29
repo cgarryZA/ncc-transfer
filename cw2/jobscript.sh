@@ -16,7 +16,7 @@ source /etc/profile
 module purge
 module load cuda/12.3-cudnn8.9
 
-source ~/anaconda3/etc/profile.d/conda.sh
+source ~/miniconda3/etc/profile.d/conda.sh
 conda activate CW2
 
 cd "$(dirname "$0")"
