@@ -12,8 +12,11 @@ cw1/output/
 cw1/cw1_run.log
 cw2/output/*.keras
 
-# Dataset (upload separately - too large for git)
+# Extracted dataset (untar on NCC, don't commit)
 data/ds/
+data/LICENSE.md
+data/README.md
+data/meta.json
 
 # Notebook execution artifacts
 .ipynb_checkpoints/
