@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -N 1                          # 1 node
 #SBATCH -c 2                          # 2 CPU cores
-#SBATCH --gres=gpu:1                  # 1 GPU (any type)
+#SBATCH --gres=gpu:ampere:1            # 1 Ampere GPU
 #SBATCH --mem=16G                     # 16 GB system RAM
 #SBATCH -p tpg-gpu-small              # Taught PG partition
 #SBATCH --qos=short                   # Up to 2 days walltime
