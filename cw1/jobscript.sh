@@ -20,6 +20,11 @@ conda activate CW2
 
 cd ~/ncc-transfer/cw1
 
+# Ensure dataset is accessible at cw1/data/ds/
+if [ ! -d "data/ds" ] && [ -d "../data/ds" ]; then
+    ln -s ../data data
+fi
+
 stdbuf -oL jupyter nbconvert \
     --execute \
     --to notebook \
