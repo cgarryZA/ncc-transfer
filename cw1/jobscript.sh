@@ -2,7 +2,7 @@
 #SBATCH -N 1
 #SBATCH -c 2
 #SBATCH --gres=gpu:ampere:1
-#SBATCH --mem=32G
+#SBATCH --mem=16G
 #SBATCH -p tpg-gpu-small
 #SBATCH --qos=short
 #SBATCH -t 0-04:00:00
