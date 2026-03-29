@@ -19,10 +19,8 @@ module load cuda/12.3-cudnn8.9
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate CW2
 
-cd "$(dirname "$0")"
+cd ~/ncc-transfer/cw1
 
-# Run the entire notebook (training + evaluation)
-# --ExecutePreprocessor.timeout=-1 disables the cell timeout (training takes hours)
 stdbuf -oL jupyter nbconvert \
     --execute \
     --to notebook \
