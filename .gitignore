@@ -1,0 +1,29 @@
+# Model checkpoints (too large for git)
+*.keras
+*.h5
+*.ckpt
+*.pb
+
+# Training artifacts
+*.pkl
+
+# Generated outputs
+cw1/output/
+cw1/cw1_run.log
+cw2/output/*.keras
+
+# Dataset (upload separately - too large for git)
+data/ds/
+
+# Notebook execution artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# SLURM logs
+*.out
+*.err
+
+# OS
+.DS_Store
+Thumbs.db
