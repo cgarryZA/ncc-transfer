@@ -4,7 +4,6 @@
 #SBATCH --gres=gpu:ampere:1
 #SBATCH --mem=16G
 #SBATCH -p tpg-gpu-small
-#SBATCH --qos=short
 #SBATCH -t 0-08:00:00
 #SBATCH --job-name=CW2A_train
 #SBATCH -o CW2A_%j.out
